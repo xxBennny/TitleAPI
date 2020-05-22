@@ -129,7 +129,7 @@ public class CLUpdate implements Listener {
 		plugin.getLogger().info(updateMessage);
 	}
 
-	@EventHandler
+	/*@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		if (updateAvailable && event.getPlayer().isOp()) {
 			event.getPlayer().sendMessage(updateMessage);
@@ -137,6 +137,6 @@ public class CLUpdate implements Listener {
 		if (pluginMessage != null && event.getPlayer().isOp()) {
 			event.getPlayer().sendMessage(pluginMessage);
 		}
-	}
+	}*/
 
 }
